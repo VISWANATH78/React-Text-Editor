@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  align-items: center;
+}
+
+.editor {
+  margin-top: 3rem;
+  align-items: center;
+}
+
+h1 {
+  margin: 0 auto 3rem auto;
+  text-align: center;
+  align-items: center;
+}
+h2 {
+ 
+  margin: 1px 10%;
+  text-align: center;
+  align-items: center;
+}
+p {
+  margin: 0 auto 3rem auto;
+  text-align: center;
+  text-size-adjust: 20px;
+  align-items: center;
+}
+
+.rdw-editor-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.rdw-editor-main {
+  min-height: 10rem;
+  background-color: #00000015;
+  padding: 0 1rem;
+  align-items: center;
+  background: rgba( 255, 255, 255, 0.35 );
+  box-shadow: 0 8px 32px 0 rgba(23, 23, 23, 0.37);
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba(29, 255, 225, 0.18);
+}
+
+
+textarea {
+  width: 63rem;
+  margin: 1px 20%;
+  min-height: 25rem;
+  text-align: center;
+  background-color: #1c3fde15;
+  background: rgba(77, 67, 67, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(35, 35, 43, 0.37);
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+accent-color:white;
+border-radius: 10px;
+border: 1px solid rgba(0, 255, 221, 0.18);
+}
+
